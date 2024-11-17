@@ -1,1 +1,10 @@
- 
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    volumes:
+      - ./purchases.db:/app/purchases.db
+    environment:
+      - DATABASE_PATH=/app/purchases.db
+    restart: unless-stopped 
