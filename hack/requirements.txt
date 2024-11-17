@@ -1,0 +1,10 @@
+python-telegram-bot==4.12.1
+requests==2.31.0
+python-dotenv==1.0.1
+matplotlib==3.8.3
+seaborn==0.13.2
+numpy==1.26.4
+APScheduler==3.10.4
+opencv-python==4.9.0.80
+Pillow==10.2.0
+telebot==0.0.5 
